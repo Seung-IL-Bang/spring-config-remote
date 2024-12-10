@@ -1,0 +1,13 @@
+token:
+  expiration_time: 86400000
+  secret: user_token_prod
+
+gateway:
+  ip: 127.0.0.1
+
+spring:
+  rabbitmq:
+    host: '{cipher}4aca31d86dc3f4e52ef7406f0c43734e6a4c8c549f202256aa228f92ed1dddb8'
+    port: '{cipher}315491ce0c47c8fd60c0437720c876cee08e3b251c601aade3a93165167bfda8'
+    username: '{cipher}0c9b3e103b62e7fbe5e183809dc72a73903cab20a29de101a2a1f5bc1f274086'
+    password: '{cipher}41d3d0b79261e003a5f0fc85dca81272304fb9466c7d1e4ce6152bce98c79ca7'
