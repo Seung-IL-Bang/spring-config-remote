@@ -13,4 +13,5 @@ spring:
     password: '{cipher}41d3d0b79261e003a5f0fc85dca81272304fb9466c7d1e4ce6152bce98c79ca7'
 
 order-service:
-  url: http://localhost:8000/order-service/%s/orders
+  # url: http://localhost:8000/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders # gateway 거치지 않고 rest template -> 직접 order-service 호출
